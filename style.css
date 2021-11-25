@@ -25,7 +25,7 @@ img {
 
   background: white;
   height: 140px;
-  position: fixed;
+  position: absolute;
   top: 5px;
   left: 2.5%;
   border-radius: 10px;
@@ -158,6 +158,7 @@ main {
 }
 
 .about-me article {
+  margin-top: 70px;
   box-shadow: black 0 0 10px 1px;
   font-size: 2rem;
   display: flex;
@@ -188,4 +189,53 @@ main {
   display: block;
   height: 100%;
   position: relative;
+}
+
+.carrusel {
+  margin-top: 50px;
+  display: flex;
+  overflow-x: hidden;
+  border-radius: 20px;
+  box-shadow: 0 0 10px 10px rgb(209, 238, 164);
+}
+
+.img-carrusel {
+  height: 300px;
+  min-width: 300px;
+  max-width: 300px;
+}
+.img-carrusel img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.cards-works {
+  margin-top: 90px;
+  background: grey;
+  font-size: 2rem;
+}
+
+.cards-works h2 {
+  text-decoration: underline red;
+  padding: 20px;
+}
+
+.cards-works article {
+  width: 100%;
+  border: hotpink 2px solid;
+  text-align: center;
+}
+
+.contacto article {
+  font-size: 2rem;
+}
+
+.canales {
+  display: flex;
+  justify-content: space-between;
+}
+
+.canales img {
+  width: 25%;
 }
